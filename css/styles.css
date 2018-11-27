@@ -36,14 +36,34 @@
 
  .description {
    padding: 10px;
+   padding-top: 40px;
+   padding-left: 30px;
+   padding-right: 30px;
  }
 
- address {
-   padding: 10px;
- }
+.jumbotron {
+  padding: 10px;
+}
 
- .social {
-   padding: 10px;
-   float: right;
+.reviews {
+  padding-top: 20px;
+}
 
- }
+footer {
+  background-color: #5b5b5b;
+}
+
+.fab {
+  font-size: 24px;
+  color: white;
+  padding: 5px;
+}
+
+.social {
+  padding: 10px;
+}
+
+address {
+  padding: 10px;
+  color: #ffffff;
+}
