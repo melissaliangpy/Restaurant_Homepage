@@ -8,3 +8,46 @@
      display: inline-block;
    }
  }
+
+ body {
+   background-color: #e8e8e8;
+ }
+
+ h1 {
+   font-family: 'Fjalla One', sans-serif;
+
+ }
+
+ h2 {
+
+ }
+
+ h3 {
+
+ }
+
+ p {
+
+ }
+
+ a {
+   color: #bfa13f;
+ }
+
+ .description {
+   padding: 10px;
+ }
+
+ address {
+   padding: 10px;
+ }
+
+ .social {
+   padding: 10px;
+   float: right;
+
+ }
+ .carousel-slide {
+   width: 640px;
+   height: 320px;
+   position: center;
