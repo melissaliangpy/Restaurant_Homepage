@@ -49,6 +49,7 @@
   padding-top: 20px;
 }
 
+<<<<<<< HEAD
 footer {
   background-color: #5b5b5b;
 }
@@ -67,3 +68,10 @@ address {
   padding: 10px;
   color: #ffffff;
 }
+=======
+ }
+ .carousel-slide {
+   width: 640px;
+   height: 320px;
+   position: center;
+>>>>>>> 24820a088d5c517220b3dca926738dd4e2683c8b
