@@ -1,48 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURFING UK™ Homepage</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>HOME</title>
-
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
-    CHECK PATH-->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta name="description" content="CF:G AW Competition">
+    <meta name="author" content="Annika, Melissa, Ain, Megan">
   </head>
   <body>
-    <div class="jumbotron text-center">
-      <h1>Restaurant Name</h1>
+    <div class="jumbotron text-center" role="banner">
+      <h1><img class="surfing_glyph" src="https://img.icons8.com/ios-glyphs/100/000000/surfing.png" alt="black glyph of a stickman on surfboard" title="Surfing Glyph">SURFING UK™</h1>
     </div>
-    <nav class="navbar navbar-inverse navbar-fixed" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">ABOUT</a></li>
-            <li class="active"><a href="menu.html">MENU</a></li>
-            <li><a href="#">BOOK</a></li>
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="navigation toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">ABOUT</a></li>
+          <li class="active"><a>MENU</a></li>
+          <li><a>BOOK</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container menu">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul>
+            <h2>Mains</h2>
+            <li class="food">Cornish Cod<span class="price">£15</span><br>
+              <span class="f_description">Description of the food here.</span>
+            </li>
+            <li class="food">Cornish Haddock<span class="price">£10</span><br>
+              <span class="f_description">Available in beer battered or gluten
+              free beer battered, simply grilled or coated in Panko breadcrumbs -
+              Deep fried in beer dripping or rapeseed oil</span>
+            </li>
+            <li class="food">Deep Fried or Grilled Halloumi<span class="price">£10</span><br>
+              <span class="f_description">Served with rocket, sweet chilli sauce & tzatziki.</span>
+            </li>
+          </ul>
+          <ul>
+            <h2>Sides</h2>
+            <li class="food">Hand Cut Chunky Chips<span class="price">£4</span><br>
+              <span class="f_description">Handmade using specially selected potatoes.</span>
+            </li>
+            <li class="food">Sweet Potato Fries<span class="price">£4</span><br>
+              <span class="f_description">Description of the food here.</span>
+            </li>
+            <li class="food">Super Food Salad<span class="price">£6</span><br>
+              <span class="f_description">Butternut squash, broccoli, avocado, red
+              quinoa, freekeh, pomegranate & sunflower seeds with lemon dressing.</span>
+            </li>
+            <li class="food">Asian Slaw<span class="price">£6</span><br>
+              <span class="f_description">Shredded raw cabbages, coriander, mint, chilli and soy.</span>
+            </li>
           </ul>
         </div>
+        <div class="col-sm-6">
+          <img src="images/fish_chips_1.jpg" class="img-responsive food_image" title="Fish & Chips" alt="main course of fish with a side of chips">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <ul>
+            <h2>Drinks</h2>
+            <li class="food">Heineken<span class="price">£50</span><br>
+              <span class="f_description">Description of the food here.</span>
+            </li>
+            <li class="food">Colle Del Sole Pinot Grigio<span class="price">£50</span><br>
+              <span class="f_description">2017, Natale Verga, Veneto, Italy</span>
+            </li>
+            <li class="food">The War Horse Chenin Blanc<span class="price">£30</span><br>
+              <span class="f_description">2018, Stellenbosch, South Africa</span>
+            </li>
+            <li class="food">Azubre Verdejo<span class="price">£30</span><br>
+              <span class="f_description">2017, Rueda, Spain</span>
+            </li>
+            <li class="food">Castellani 'Mirapiana<span class="price">£25</span><br>
+              <span class="f_description">2015, Maremma, Toscana, Italy</span>
+            </li>
+            <li class="food">Catanga Organic Rojo<span class="price">£23</span><br>
+              <span class="f_description">2017, Vino de la Tierra de Castilla, Spain</span>
+            </li>
+            <li class="food">Outnumbered Pinot Noir<span class="price">£40</span><br>
+              <span class="f_description">2016, Wairapa, New Zealand</span>
+            </li>
+          </ul>
+        </div>
+<<<<<<< HEAD
     </nav>
 
           <div class="container">
@@ -84,39 +139,46 @@
             <li class="food">Outnumbered Pinot Noir £40</li>
             <p class="f_description">2016, Wairapa, New Zealand</p>
           </ol>
+=======
+        <div class="col-sm-6">
+          <img src="images/beer.jpg" class="img-responsive drink_image" title="pint of beer" alt="pint of one of our local beers">
+>>>>>>> 23ca556971d1d1a551983e0bda75728b642abfac
         </div>
-
-
+      </div>
+    </div>
     <footer>
-<div class="container">
-      <div class="row">
-  <div class="col-sm-8">
-    <address>
-Fish & Chips Restaurant<br>
-2 Malet Pl<br>
-Camden Town<br>
-London WC1E 7JE<br>
-  </address>
-</div>
-  <div class="social col-sm-4">
-    <i class="fab fa-twitter-square"></i>
-    <i class="fab fa-facebook-square"></i>
-    <i class="fab fa-instagram"></i>
-  </div>
-</div>
-</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <address>SURFING UK™<br>
+            2 Malet Place<br>
+            London<br>
+            WC1E 7JE<br>
+          </address>
+          </div>
+          <div class="col-sm-4">
+            <p class="hours">OPENING HOURS<br>
+            Weekdays: 9.00-20.00<br>
+            Saturdays: 9.00-18.00<br>
+            Sundays: 11.00-17.00
+            </p>
+          </div>
+          <div class="social col-sm-4">
+            <a href="https://www.facebook.com" title="SURFING UK facebook page" >
+              <i class="fab fa-facebook-square" tabindex="0" role="button"></i>
+            </a>
+            <a href="https://www.twitter.com" title="SURFING UK twitter page">
+              <i class="fab fa-twitter-square" tabindex="0" role="button"></i>
+            </a>
+            <a href="https://www.instagram.com" title="SURFING UK instagram page">
+              <i class="fab fa-instagram" tabindex="0" role="button"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster
-    CHECK PATH-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
-    CHECK PATH-->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

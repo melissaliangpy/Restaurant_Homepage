@@ -1,4 +1,29 @@
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #e8e8e8;
+}
+
+.surfing_glyph {
+  height: 70px;
+  width: 70px;
+}
+
+h1, h2, h3, p, li, small, label, address {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.jumbotron h1 {
+  color: black;
+}
+
+.navbar-nav a {
+  color: #bfa13f;
+}
+
 @media (min-width: 768px) {
+  .navbar {
+    margin-bottom: 0;
+  }
    .navbar-nav {
      width: 100%;
      text-align: center;
@@ -6,71 +31,100 @@
    .navbar-nav > li {
      float: none;
      display: inline-block;
+     padding-left: 20px;
+     padding-right: 20px;
+     font-size: 24px;
    }
  }
 
- body {
-   background-color: #e8e8e8;
+ .navbar-toggle {
+   width: 44px;
+   height: 44px;
  }
 
- h1 {
-   font-family: 'Fjalla One', sans-serif;
-
+ .affix {
+     top: 0;
+     width: 100%;
+     z-index: 9999 !important;
  }
 
- h2 {
-
+ .carousel-inner img {
+   margin: auto;
  }
 
- h3 {
-
+ .glyphicon-chevron-right, .glyphicon-chevron-left {
+   width: 44px;
+   height: 44px;
  }
 
- p {
+body {
+  background-color: #e8e8e8;
+  line-height: 1.5;
+}
 
- }
-
- a {
-   color: #bfa13f;
- }
-
- .description {
-   padding: 10px;
-   padding-top: 40px;
-   padding-left: 30px;
-   padding-right: 30px;
- }
-
-.jumbotron {
-  padding: 10px;
+.description {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .reviews {
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.submitted, .submissions h3 {
+  text-align: center;
+}
+
+.submit_button {
+  width: 88px;
+  height: 44px;
+}
+
+.map {
+  width: 100%;
+  height: 460px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .map {
+  height: 300px;
+  }
 }
 
 footer {
   background-color: #5b5b5b;
+  text-align: center;
 }
 
-.fab {
-  font-size: 24px;
+address, .hours {
+  padding: 10px;
   color: white;
-  padding: 5px;
 }
 
 .social {
   padding: 10px;
 }
 
-address {
-  padding: 10px;
-  color: #ffffff;
+.fab {
+  font-size: 60px;
+  color: white;
+  padding: 5px;
 }
 
- }
- .carousel-slide {
-   width: 640px;
-   height: 320px;
-   position: center;
+.price {
+  float: right;
+}
+
+.food_image {
+  padding: 20px;
+}
+
+.drink_image {
+  padding: 20px;
 }
