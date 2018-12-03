@@ -50,6 +50,8 @@ h1, h2, h3, p, li, small, label, address {
 
  .carousel-inner img {
    margin: auto;
+   width:640px;
+   height: 360px;
  }
 
  .glyphicon-chevron-right, .glyphicon-chevron-left {
