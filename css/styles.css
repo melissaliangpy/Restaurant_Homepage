@@ -50,7 +50,7 @@ h1, h2, h3, p, li, small, label, address {
 
  .carousel-inner img {
    margin: auto;
-   width:640px;
+   width:740px;
    height: 360px;
  }
 
@@ -129,4 +129,8 @@ address, .hours {
 
 .drink_image {
   padding: 20px;
+}
+
+.f_description {
+  color: #605747;
 }
