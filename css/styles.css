@@ -48,16 +48,19 @@ h1, h2, h3, p, li, small, label, address {
      z-index: 9999 !important;
  }
 
+
  .carousel-inner img {
    margin: auto;
-   width:740px;
-   height: 360px;
+   width: 100%;
+   max-height: 100%;
+
  }
 
  .glyphicon-chevron-right, .glyphicon-chevron-left {
    width: 44px;
    height: 44px;
  }
+
 
 body {
   background-color: #e8e8e8;
