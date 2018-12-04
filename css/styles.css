@@ -137,3 +137,9 @@ address, .hours {
 .f_description {
   color: #605747;
 }
+
+.figure-caption {
+  font: 'Fjalla One';
+  margin-top: 5px;
+  margin-left: 20px;
+}
