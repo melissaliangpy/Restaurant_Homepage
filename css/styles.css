@@ -127,11 +127,13 @@ address, .hours {
 }
 
 .food_image {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .drink_image {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .f_description {
@@ -139,7 +141,7 @@ address, .hours {
 }
 
 .figure-caption {
-  font: 'Fjalla One';
-  margin-top: 5px;
-  margin-left: 20px;
+  font-family: Fjalla One;
+  margin-bottom: 20px;
+  text-align: center;
 }
